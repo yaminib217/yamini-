@@ -1,0 +1,248 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items:center; 
+     margin-left: 100px;
+    }
+.logo{
+    width: 130px;
+}
+.list-item{
+    
+    list-style: none;
+     display: inline; 
+    margin: 0px 20px;
+}
+.list{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+.list:hover{
+    color: red;
+    text-decoration: underline;
+}
+.home-content{
+    margin:15% 0px 0px 8%  ;
+}
+#username{
+    font-size: 40px;
+     margin-bottom: 20px; 
+     font-family: "Sofadi One", system-ui;
+    }
+#lname{
+    font-family: "Sofadi One", system-ui;
+    color:rgb(164, 69, 223) ;
+} 
+#download{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding:10px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 30px;
+
+}  
+.home-img{
+    width: 15%;
+    height: 75%;
+    position: absolute;
+    bottom: 0px;
+    right:10px;
+}
+.group1{
+
+    position: absolute;
+    height: 75%;
+    bottom: 89px;
+    left: 20%;
+    transform: translateX(-50%);
+    
+}
+.home-img:hover #shape{
+    bottom:170px;
+}
+.home-img:hover #girl{
+    left:-70%;
+}
+#about{
+    margin:15% 8% 0px 8% ;   
+}
+.sectionhead{
+    text-align: center;
+}
+#mainhead{
+    font-size: 30px;
+}
+#subhead{
+    font-size: 20px;
+    color: blueviolet;
+}
+.aboutbody{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:50px;
+    align-items: center;
+}
+.img1{
+     width: 400px;
+}
+.aboutcontent{
+    font-size: 20px;
+    text-align: justify;
+}
+.information{
+    margin-top: 1.3rem;
+}
+.infobox{
+    margin-top:10px;
+}
+.infobox>span{
+    margin-left: 1rem;
+}
+#skill{
+    margin: 8% 8% 0px 8%;
+}
+.skillcontent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2rem;
+    margin-top: 20px;
+}  
+.bars{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1rem 0px;
+}
+.mainhead,.barpercentage{
+    font-weight: 500px;
+    font-size: 1.3rem;
+}
+.basebar{
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+}
+.htmlbar{
+    background-color: rgb(235, 142, 19);
+    width: 89%;
+}
+.cssbar{
+    background-color: rgb(235, 142, 19);
+    width:79%;
+}
+.jsbar{
+    background-color: rgb(235, 142, 19);
+    width: 88%;
+}
+.reactbar{
+    background-color: rgb(235, 142, 19);
+    width: 69%;   
+}
+.contacts{
+    margin: 8% 8% 0px 8%;
+}
+.iconcollection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+.brands{
+    color: black;
+    font-size: 2rem;
+    
+}
+.icon:hover{
+    background-image:linear-gradient(to bottom right, rgb(54, 2, 54), rgb(9, 69, 9),rgb(39, 10, 101)) ;
+}
+.icon:hover .brands{
+    color: white;
+    /* animation */
+    animation: rotate 3s;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(30deg);
+    }
+    20%{
+        transform: rotate(-30deg);
+    }
+    40%{
+        transform: rotate(30deg);
+    }
+    60%{
+        transform: rotate(-30deg);
+    }
+    80%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(-30deg);
+    }
+}
+footer{
+    margin-top: 8%;
+}
+#copyright{
+    text-align: center;
+    font-weight: 600;
+}
+.uparrow{
+    float: right;
+    margin: -30px 20px 0px 0px ;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: azure;
+}
+::-webkit-scrollbar-thumb{
+    background-color: orange;
+    border-radius: 10px;
+}
+
+     
+
+
+
+
+
+
+
+
+    
+
